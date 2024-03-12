@@ -28,10 +28,11 @@ nav{
     height: 8vh;
 }
 
-main {
+#home {
     background: url(/IMG/truck_image.jpg) no-repeat center center;
     background-size: cover;
     height: 92vh;
+    overflow: hidden;
 
 }
 
@@ -109,3 +110,43 @@ display: none;
 .mobile-menu.active .line3 {
     transform: rotate(45deg) translate(-5px, -7px);
 }
+
+#login-Page {
+    background: rgb(44,73,180);
+background: linear-gradient(8deg, rgba(44,73,180,1) 14%, rgba(35,35,46,1) 63%);
+    background-size: cover;
+    height: 92vh;
+    overflow: hidden;
+
+}
+
+.login-Section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-Content {
+    background-color: #21212f;
+    width: 570px;
+    height: 555px;
+    padding: 35px;
+}
+
+.login-Content form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.login-Content input {
+    margin-top: 10px;
+}
+
+.login-Content img {
+    width: 80px;
+    height: auto;
+}
+
+

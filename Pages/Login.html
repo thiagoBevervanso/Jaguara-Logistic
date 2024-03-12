@@ -1,17 +1,14 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/CSS/styles.css">
-    <link rel="shortcut icon" type="imagez/png" href="/IMG/Home_Page_icon.ico"">
-    <title>Home|Jaguará </title>
+    <link rel="Shortcut icon" href="/IMG/Login_Page_icon.ico">
+    <title>Login</title>
 </head>
 <body>
     <header>
-        <div> 
-            
-        </div>
         <div class="container">
             <nav>
                 <a class="logo" href="#">Jaguará Logistics</a>
@@ -21,7 +18,7 @@
                     <div class="line3"></div>
                 </div>
                     <ul class="nav-list">
-                        <li><a href="HomePage.html">Home</a></li>
+                        <li><a href="/HomePage.html">Home</a></li>
                         <li><a href="/Pages/Login.html"> Login</a></li>
                         <li><a href="Sobre.html">Sobre</a></li>
                         <li><a href="Contato.html">Contato</a></li>
@@ -30,30 +27,21 @@
         </div>
         
     </header>
-    <main id="home">
-        <section>
-            
-            <h1>Seja bem-vindo ao Jaguará</h1>
-            <p>Trabalhamos para uma melhor logistica feita sob medida para clientes conservadores</p>
-        </section>
-        <section>
-            <h2>Notícias</h2>
-            <article>
-                <h3>Notícia 1</h3>
-                <p>Texto da notícia 1</p>
-            </article>
-            <article>
-                <h3>Notícia 2</h3>
-                <p>Texto da notícia 2</p>
-            </article>
-            <article>
-                <h3>Notícia 3</h3>
-                <p>Texto da notícia 3</p>
-            </article>
+    <main id="login-Page">
+        <section class="login-Section">
+            <div class="login-Content">
+                <div>
+                    <img src="/IMG/Login_image.png"> 
+                </div>
+                <form>
+                    <input type="text" name="nome" placeholder="Usuário" autofocus>
+                    <input type="password" name="senha" placeholder="Senha">
+                    <input type="submit" value="Entrar">
+                </form>
+                <p> Ainda não tem uma conta? <a href=""> Criar conta</a></p>
+            </div>
         </section>
     </main>
-    <footer>
-    </footer>
     <script src="/JS/mobile-navbar.js"></script>
 </body>
 </html>
