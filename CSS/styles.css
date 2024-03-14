@@ -54,9 +54,9 @@ display: none;
 .mobile-menu div {
     width: 32px;
     height: 2px;
-    background: #fff;
+    background: #ffffff;
     margin: 8px;
-    transition: 0.3s;
+    transition: all 0.3s ease;
 
 }
 
@@ -132,6 +132,7 @@ background: linear-gradient(8deg, rgba(44,73,180,1) 14%, rgba(35,35,46,1) 63%);
     flex-direction: column;
     align-items: center;
     background-color: #21212f;
+    border-radius: 10px;
     width: 300px;
     height: 355px;
     padding: 35px;
@@ -143,6 +144,7 @@ background: linear-gradient(8deg, rgba(44,73,180,1) 14%, rgba(35,35,46,1) 63%);
     flex-direction: column;
     width: 100%;
 }
+
 
 .login-Content input {
     margin-top: 10px;
@@ -166,6 +168,21 @@ input::placeholder{
     color: #cbd0f7;
     font-size: 14px;
     
+}
+
+form [type="submit"]{
+    display: block;
+    background-color: #5568fe;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#sem-conta{
+    margin-top: 10px;
+    color: #8793f0;
+    font-size: 14px;
+
 }
 
 
